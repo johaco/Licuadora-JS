@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Configuración del documento HTML -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Enlace a la hoja de estilos externa -->
+  <link rel="stylesheet" href="css/estilos.css">
+  <!-- Icono de la página web -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <!-- Título de la página web -->
+  <title>Licuadora-JS</title>
+</head>
+<body>
+  
+  <!-- Contenedor principal -->
+  <div class="container">
+    <!-- Contenedor de la licuadora con botón interactivo -->
+    <div id="blender" class="blender">
+      <div id="blender-button" class="blender-button" onclick="controlarLicuadora()"></div>
+    </div>
+  </div>
+
+  <!-- Elemento de audio para el sonido de la licuadora con configuración -->
+  <audio id="blender-sound" src="sonido/licuadora.mp3" type="audio/mpeg" loop></audio>
+  <!-- Elemento de audio para el sonido del botón de la licuadora -->
+  <audio id="blender-button-sound" src="sonido/botonLicuadora.mp3" type="audio/mpeg"></audio>
+  
+  <!-- Inclusión del script de motorcito.js -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
